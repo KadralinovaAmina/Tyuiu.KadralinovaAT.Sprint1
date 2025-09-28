@@ -23,7 +23,7 @@ Console.WriteLine("Введите значение X:");
 x = Convert.ToInt32(Console.ReadLine());
 
 Console.WriteLine("***************************************************************************");
-Console.WriteLine("* РЕЗУЛЬТАТ:                                                              *");
+Console.WriteLine("* РЕЗУЛЬТАТ:                                                             *");
 Console.WriteLine("***************************************************************************");
 
 Console.WriteLine("Расстояние в дюймах X = " + ds.ConvertMetreToInchs(x));
