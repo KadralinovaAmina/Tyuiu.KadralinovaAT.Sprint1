@@ -7,7 +7,7 @@ namespace Tyuiu.KadralinovaAT.Sprint1.Task6.V11.Lib
         public bool CheckeFirstLetterRepetition(string value)
         {
             char firstChar = value[0];
-            return value.Substring(1).Contains(firstChar.ToString()); 
+            return value.Substring(1).Contains(firstChar.ToString());
         }
     }
 }
